@@ -2,20 +2,22 @@
   "name": "vanilla-web-components",
   "version": "1.0.0",
   "description": "Vanilla Web Components in 2018",
+  "keywords": [
+    "parcel",
+    "parcel-bundler",
+    "vanillajs",
+    "web-components"
+  ],
+  "license": "MIT",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open --no-hmr",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "start": "parcel index.html --open --no-hmr"
   },
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
     "parcel-bundler": "^1.10.2"
-  },
-  "keywords": [
-    "parcel",
-    "web-components",
-    "vanillajs",
-    "parcel-bundler"
-  ]
+  }
 }
