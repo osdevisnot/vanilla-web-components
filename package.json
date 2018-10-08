@@ -1,0 +1,20 @@
+{
+  "name": "vanilla-web-components",
+  "version": "1.0.0",
+  "description": "Vanilla Web Components in 2018",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open --no-hmr",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "parcel",
+    "web-components",
+    "vanillajs",
+    "parcel-bundler"
+  ]
+}
